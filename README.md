@@ -1,11 +1,24 @@
 # Explaining why Lottery Ticket Hypothesis Works or Fails
+
+## Objective:
+
+Code for the course [CMU 16-824: Visual Learning and Recognition](https://visual-learning.cs.cmu.edu/). In this project,
+we study the relationship between pruning and explainability. We validate if the explanations generated from the pruned
+network using [Lottery ticket hypothesis](https://visual-learning.cs.cmu.edu/) (LTH) are consistent or not. Specifically
+we prune a neural network using LTH. Next we generate and compare the local and global explanations
+using [Grad-CAM](https://arxiv.org/pdf/1610.02391.pdf) and
+[Concept activations](https://arxiv.org/abs/1711.11279) respectively. Overview of our method is as follows:
 ![A test image](./doc/image/arch.png)
+
+![A test image](./doc/image/Least_Auklet_gradcam.png)
 ## Report
+
 Follow the [link](https://github.com/Shantanu48114860/Explainability-with-LTH/blob/main/doc/VLR.pdf).
 
 ## Environment setup
 
 Create the environment from the environment.yml file:
+
  ```bash
   conda env create -f environment.yml
  ```
@@ -45,8 +58,8 @@ The train-test-val splits of all the datasets are given in the corresponding jso
 * Prior to start the training process, edit `data_root`, `json_root` and `logs` parameters in the config
   file `config/BB_cub.yaml` to set the path of images, json files for train-test-val splits and the output to be saved
   respectively.
-* Prior to follow the steps, refer to `./iPython/Cub-Dataset-understanding.ipynb` file to understand the CUB-200 dataset. This step
-  is optional.
+* Prior to follow the steps, refer to `./iPython/Cub-Dataset-understanding.ipynb` file to understand the CUB-200
+  dataset. This step is optional.
 * Preprocess the noisy concepts as described earlier.
 * Follow the steps below for CUB-200 dataset:
 
@@ -99,6 +112,7 @@ python main_heatmap_save.py --config "config/BB_cub.yaml"
 ```
 
 ## Bash scripts
+
 All the bash scripts to follow steps are included in `./bash_script` file.
 
 ## Pre-trained models
@@ -110,7 +124,7 @@ path till `results` in `log` parameter `./config/BB_cub.yaml` file.
 
 ## Contact
 
-shawn24@bu.edu, shg121@pitt.edu, beingshantanu2406@gmail.com
+shawn24@bu.edu (preferred), shg121@pitt.edu, beingshantanu2406@gmail.com (personal), shantan2@andrew.cmu.edu
 
 Licensed under the [MIT License](LICENSE)
 Copyright (c) [Shantanu](https://shantanu48114860.github.io/)
