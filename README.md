@@ -2,10 +2,10 @@
 
 ## Objective:
 
-Code for the course [CMU 16-824: Visual Learning and Recognition](https://visual-learning.cs.cmu.edu/). In this project,
-we study the relationship between pruning and explainability. We validate if the explanations generated from the pruned
-network using [Lottery ticket hypothesis](https://visual-learning.cs.cmu.edu/) (LTH) are consistent or not. Specifically
-we prune a neural network using LTH. Next we generate and compare the local and global explanations
+Code for the project of the course [CMU 16-824: Visual Learning and Recognition](https://visual-learning.cs.cmu.edu/).
+In this project, we study the relationship between pruning and explainability. We validate if the explanations generated
+from the pruned network using [Lottery ticket hypothesis](https://visual-learning.cs.cmu.edu/) (LTH) are consistent or
+not. Specifically we prune a neural network using LTH. Next we generate and compare the local and global explanations
 using [Grad-CAM](https://arxiv.org/pdf/1610.02391.pdf) and
 [Concept activations](https://arxiv.org/abs/1711.11279) respectively. Overview of our method is as follows:
 ![A test image](./doc/image/arch.png)
@@ -123,20 +123,23 @@ path till `results` in `log` parameter `./config/BB_cub.yaml` file.
 
 ## Results
 
-> Performance of pruned model by LTH
-![A test image](./doc/image/cub-200-quant.png)
- 
-> Local explanations by Grad-CAM
+> #### Performance of the pruned models by LTH
+>![A test image](./doc/image/cub-200-quant.png)
 
-![A test image](./doc/image/cub-grad-cam.png)
+> #### Local explanations by Grad-CAM
+>![A test image](./doc/image/cub-grad-cam.png)
+>![A test image](./doc/image/cub-grad-cam_2.png)
+>![A test image](./doc/image/cub-grad-cam_3.png)
 
-> Global explanations by Grad-CAM
+> #### Global explanations by Grad-CAM
+>![A test image](./doc/image/TCAV-cub.png)
+>![A test image](./doc/image/TCAV-cub_2.png)
 
-![A test image](./doc/image/TCAV-cub.png)
 ## Contact
 
-shawn24@bu.edu (preferred), shg121@pitt.edu, beingshantanu2406@gmail.com (personal), shantan2@andrew.cmu.edu
+`shawn24@bu.edu (preferred)`, shg121@pitt.edu, `beingshantanu2406@gmail.com (personal)`, shantan2@andrew.cmu.edu
 
 Licensed under the [MIT License](LICENSE)
+
 Copyright (c) [Shantanu](https://shantanu48114860.github.io/)
 , 2021
