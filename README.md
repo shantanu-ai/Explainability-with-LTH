@@ -110,7 +110,8 @@ path till `results` in `log` parameter `./config/BB_cub.yaml` file.
 
 ## Contact
 
-shawn24@bu.edu, shg121@pitt.edu, beingshantanu24@gmail.com
+shawn24@bu.edu, shg121@pitt.edu, beingshantanu2406@gmail.com
 
+Licensed under the [MIT License](LICENSE)
 Copyright (c) [Shantanu](https://shantanu48114860.github.io/)
 , 2021
