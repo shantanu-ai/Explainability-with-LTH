@@ -1,0 +1,23 @@
+Save act of BB using pruning by LTH
+Length of the [train] dataset: 48000
+
+Time to load the train dataset from disk: 164.40056705474854 secs
+Length of the [val] dataset: 12000
+
+Time to load the val dataset from disk: 72.39006733894348 secs
+Length of the [test] dataset: 60000
+
+Time to load the test dataset from disk: 25.74667477607727 secs
+activations-of-BB directory is created successfully at:
+/ocean/projects/asc170022p/shg121/PhD/Project_Pruning/output/activations/Pruning/Resnet_18/mnist/BB_act/Prune_type_lt
+Prune iteration: 0 =======================================>
+BB Model loaded from:
+/ocean/projects/asc170022p/shg121/PhD/Project_Pruning/output/chk_pt/Pruning/Resnet_18/mnist/best_val_prune_iteration_0_model_lt.pth.tar
+Activations are generated..
+(48000, 256, 14, 14)
+(48000, 10)
+Time to create train activations: 241.66482830047607 secs
+Activations are generated..
+(12000, 256, 14, 14)
+(12000, 10)
+Time to create val activations: 55.725550174713135 secs

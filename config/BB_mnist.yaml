@@ -1,0 +1,62 @@
+img_size: 224
+seed: 0
+
+# dataset_name: ["mnist", ]
+dataset_name: "mnist"
+data_root: "/ocean/projects/asc170022p/shg121/PhD/Project_Pruning/data/MNIST_EVEN_ODD"
+json_root: "/ocean/projects/asc170022p/shg121/PhD/Project_Pruning/scripts_data"
+chk_pt_path: "seq_epoch_20.pth.tar"
+
+# model_arch: ["Resnet_10", "Resnet_18", Resnet_34, "AlexNet"]
+model_arch: "Resnet_18"
+pretrained: False
+transfer_learning: False
+batch_size: 128
+lr: 0.01
+epochs: 3
+logs: "/ocean/projects/asc170022p/shg121/PhD/Project_Pruning/Results"
+concept_names: [ "Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine" ]
+bb_layers_for_concepts: [ "layer3"]
+# For mnist - "Even/odd"
+num_classes: 1
+# 0-Even 1-Odd
+class_list_to_predict: [ 0, 1 ]
+
+initialized_BB_weights: False
+continue_pruning: False
+last_model_chk_pt_file: "best_val_prune_iteration_0_model_lt.pth.tar"
+last_model_mask_file: "lt_mask_non_zero_params_100.0_ite_0.pkl"
+attribute_file_name: "attributes.npy"
+# cav_flattening_type: ["max_pooled", "avg_pooled", "flattened"]
+cav_flattening_type: "flattened"
+#cav_flattening_type: "max_pooled"
+#cav_flattening_type: "avg_pooled"
+
+# g model configs:
+hidden_features: 500
+g_lr: 0.001
+th: 0
+val_after_th: 0
+g_epoch: 3
+# for max pooled
+# g_chkpt: "best_epoch_16.pth.tar"
+
+# for avg pooled
+#g_chkpt: "best_epoch_19.pth.tar"
+
+# for flattened
+g_chkpt: "best_epoch_42.pth.tar"
+
+
+# pruning configs
+prune_type: "lt"
+prune_iterations: 35
+start_iter: 30
+
+prune_percent: 10
+
+# epoch for each of the pruned network
+end_iter: 12
+resample: False
+epsilon: 0.0000006
+
