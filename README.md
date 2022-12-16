@@ -142,4 +142,4 @@ path till `results` in `log` parameter `./config/BB_cub.yaml` file.
 Licensed under the [MIT License](LICENSE)
 
 Copyright (c) [Shantanu](https://shantanu48114860.github.io/)
-, 2021
+, 2022
