@@ -10,7 +10,6 @@ using [Grad-CAM](https://arxiv.org/pdf/1610.02391.pdf) and
 [Concept activations](https://arxiv.org/abs/1711.11279) respectively. Overview of our method is as follows:
 ![A test image](./doc/image/arch.png)
 
-![A test image](./doc/image/Least_Auklet_gradcam.png)
 ## Report
 
 Follow the [link](https://github.com/Shantanu48114860/Explainability-with-LTH/blob/main/doc/VLR.pdf).
