@@ -45,7 +45,7 @@ The train-test-val splits of all the datasets are given in the corresponding jso
 * Prior to start the training process, edit `data_root`, `json_root` and `logs` parameters in the config
   file `config/BB_cub.yaml` to set the path of images, json files for train-test-val splits and the output to be saved
   respectively.
-* Prior to follow the steps, refer to Cub-Dataset-understanding.ipynb file to understand the CUB-200 dataset. This step
+* Prior to follow the steps, refer to `./iPython/Cub-Dataset-understanding.ipynb` file to understand the CUB-200 dataset. This step
   is optional.
 * Preprocess the noisy concepts as described earlier.
 * Follow the steps below for CUB-200 dataset:
