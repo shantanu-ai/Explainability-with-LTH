@@ -1,9 +1,11 @@
 # Explaining why Lottery Ticket Hypothesis Works or Fails
+![A test image](./doc/image/arch.png)
+## Report
+Follow the [link](https://github.com/Shantanu48114860/Explainability-with-LTH/blob/main/doc/VLR.pdf).
 
 ## Environment setup
 
 Create the environment from the environment.yml file:
-
  ```bash
   conda env create -f environment.yml
  ```
@@ -95,6 +97,9 @@ python main_heatmap_save.py --config "config/BB_cub.yaml"
 ```bash
 ./iPython/Analysis-CUB_Test-GradCAM.ipynb
 ```
+
+## Bash scripts
+All the bash scripts to follow steps are included in `./bash_script` file.
 
 ## Pre-trained models
 

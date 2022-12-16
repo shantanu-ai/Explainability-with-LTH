@@ -15,4 +15,4 @@ echo "Run TCAV"
 source /ocean/projects/asc170022p/shg121/anaconda3/etc/profile.d/conda.sh
 conda activate python_3_7
 # module load cuda/10.1
-python /ocean/projects/asc170022p/shg121/PhD/Project_Pruning/main_lth_tcav.py  --config '/ocean/projects/asc170022p/shg121/PhD/Project_Pruning/config/BB_mnist.yaml'> $slurm_output
+python /ocean/projects/asc170022p/shg121/PhD/Project_Pruning/main_lth_tcav.py  --config '/ocean/projects/asc170022p/shg121/PhD/Project_Pruning/config/BB_cub.yaml'> $slurm_output
