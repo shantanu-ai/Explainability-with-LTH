@@ -121,6 +121,18 @@ the [link](https://pitt-my.sharepoint.com/:f:/g/personal/shg121_pitt_edu/Ek4iVGo
 . This link contains all check points of all the pre-trained pruned models for CUB-200 dataset. Download it and give the
 path till `results` in `log` parameter `./config/BB_cub.yaml` file.
 
+## Results
+
+> Performance of pruned model by LTH
+![A test image](./doc/image/cub-200-quant.png)
+ 
+> Local explanations by Grad-CAM
+
+![A test image](./doc/image/cub-grad-cam.png)
+
+> Global explanations by Grad-CAM
+
+![A test image](./doc/image/TCAV-cub.png)
 ## Contact
 
 shawn24@bu.edu (preferred), shg121@pitt.edu, beingshantanu2406@gmail.com (personal), shantan2@andrew.cmu.edu
