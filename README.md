@@ -7,8 +7,7 @@ In this project, we study the relationship between pruning and explainability. W
 from the pruned network using [Lottery ticket hypothesis](https://visual-learning.cs.cmu.edu/) (LTH) are consistent or
 not. Specifically we prune a neural network using LTH. Next we generate and compare the local and global explanations
 using [Grad-CAM](https://arxiv.org/pdf/1610.02391.pdf) and
-[Concept activations](https://arxiv.org/abs/1711.11279) respectively. Overview of our method is as follows:
-![A test image](./doc/image/arch.png)
+[Concept activations](https://arxiv.org/abs/1711.11279) respectively. 
 
 ## Report
 
