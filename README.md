@@ -125,10 +125,10 @@ path till `results` in `log` parameter `./config/BB_cub.yaml` file.
 > #### Performance of the pruned models by LTH
 >![A test image](./doc/image/cub-200-quant.png)
 
-> #### Local explanations by Grad-CAM
+<!-- > #### Local explanations by Grad-CAM
 >![A test image](./doc/image/cub-grad-cam.png)
 >![A test image](./doc/image/cub-grad-cam_2.png)
->![A test image](./doc/image/cub-grad-cam_3.png)
+>![A test image](./doc/image/cub-grad-cam_3.png) -->
 
 > #### Global explanations by Grad-CAM
 >![A test image](./doc/image/TCAV-cub.png)
